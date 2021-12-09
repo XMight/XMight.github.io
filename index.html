@@ -5,6 +5,7 @@
     <title>Snowflakes Engine DEMO</title>
 </head>
 <body>
+    <a href="https://github.com/XMight/js-snowflake"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./github_ribbon.png"></a>
     <div class="snowflakes" aria-hidden="true"></div>
     <script type='text/javascript'>
 function SnowflakesEngine(snowflakesContainer,snowflakesCount,fps,motionFunction){let _this=this;this.ctx={};this.ctx.snowflakesCount=snowflakesCount;this.ctx.fps=fps;this.ctx.snowflakesContainer=snowflakesContainer;this.ctx.motionFunction=motionFunction;function componentToHex(c){let hex=c.toString(16);return hex.length==1?"0"+hex:hex;};function rgbToHex(r,g,b){return"#"+componentToHex(r)+componentToHex(g)+componentToHex(b);}
